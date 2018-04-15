@@ -9,7 +9,7 @@ namespace YourDailyWord.Models
     public class WordIndexModel
     {
         public IEnumerable<WordGallery> WordGallery {get; set;}
-        public String Search { get; set; }
+        public String SearchQuery { get; set; }
 
     }
 }

@@ -25,6 +25,7 @@ namespace YourDailyWord
         {
             services.AddDbContext<YourDailyWordDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddMvc();
         }
 
