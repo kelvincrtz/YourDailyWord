@@ -7,11 +7,11 @@ using YourDailyWord.Models;
 
 namespace YourDailyWord.Controllers
 {
-    public class WordsController : Controller
+    public class WordController : Controller
     {
         public IActionResult Index()
         {
-            var model = new WordsIndexModel()
+            var model = new WordIndexModel()
             {
 
             };
