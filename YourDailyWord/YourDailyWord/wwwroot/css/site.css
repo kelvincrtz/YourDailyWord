@@ -1,4 +1,21 @@
-﻿body {
+﻿.gallery-image{
+    padding: 8px;
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 12px;
+    position: relative;
+    
+}
+
+.wordGallery-content{
+    padding: 24px;
+}
+
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
