@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YourDailyWord.Data\YourDailyWord.Data.csproj" />
+    <ProjectReference Include="..\YourDailyWord.Services\YourDailyWord.Services.csproj" />
   </ItemGroup>
 
 </Project>

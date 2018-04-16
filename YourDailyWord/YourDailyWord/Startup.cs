@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using YourDailyWord.Data;
+using YourDailyWord.Services;
 
 namespace YourDailyWord
 {
@@ -25,6 +26,8 @@ namespace YourDailyWord
         {
             services.AddDbContext<YourDailyWordDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IWordImage, WordImageService>();
 
             services.AddMvc();
         }
