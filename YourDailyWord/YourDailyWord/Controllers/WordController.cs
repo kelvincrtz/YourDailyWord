@@ -35,7 +35,7 @@ namespace YourDailyWord.Controllers
                 {
                     Id = 1,
                     Title = "Title 1",
-                    Url = "",
+                    Url = "https://images.pexels.com/photos/434229/pexels-photo-434229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                     BibleVerse = "Bible Verse 1",
                     Description = "Description 1",
                     Created = DateTime.Now,
@@ -45,7 +45,7 @@ namespace YourDailyWord.Controllers
                 {
                     Id = 2,
                     Title = "Title 2",
-                    Url = "",
+                    Url = "https://images.pexels.com/photos/207529/pexels-photo-207529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
                     BibleVerse = "Bible Verse 2",
                     Description = "Description 2",
                     Created = DateTime.Now,
@@ -55,7 +55,7 @@ namespace YourDailyWord.Controllers
                 {
                     Id = 3,
                     Title = "Title 3",
-                    Url = "",
+                    Url = "https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
                     BibleVerse = "Bible Verse 3",
                     Description = "Description 3",
                     Created = DateTime.Now,
