@@ -12,7 +12,17 @@
     
 }
 
-.wordGallery-content{
+.image-detail-container{
+    padding:10px
+}
+
+.image-detail {
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+}
+
+.wordGallery-content {
     padding: 24px;
 }
 

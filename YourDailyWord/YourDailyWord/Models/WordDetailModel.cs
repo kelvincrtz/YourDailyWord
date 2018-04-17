@@ -15,6 +15,6 @@ namespace YourDailyWord.Models
         public string BibleVerse { get; set; }
         public DateTime Created { get; set; }
 
-        public List Tags { get; set; }
+        public List<string> Tags { get; set; }
     }
 }
