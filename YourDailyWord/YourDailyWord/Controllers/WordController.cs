@@ -28,5 +28,22 @@ namespace YourDailyWord.Controllers
 
             return View(model);
         }
+
+        public IActionResult Detail(int id)
+        {
+            var word = _IWordImage.GetById(id);
+
+            var model = new WordDetailModel()
+            {
+                Id = word.Id,
+                Title = word.Title,
+                Description = word.Description,
+                BibleVerse = word.BibleVerse,
+                Created = word.Created,
+                Tags = word.Tags.Select(t => t.Description).ToList()
+            };
+
+            return View(model);
+        }
     }
 }

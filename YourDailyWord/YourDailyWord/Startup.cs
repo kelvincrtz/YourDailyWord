@@ -51,7 +51,7 @@ namespace YourDailyWord
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Word}/{action=Index}/{id?}");
             });
         }
     }

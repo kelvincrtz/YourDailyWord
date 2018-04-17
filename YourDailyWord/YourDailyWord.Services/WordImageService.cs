@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using YourDailyWord.Data;
 using YourDailyWord.Data.Models;
 
@@ -22,7 +23,7 @@ namespace YourDailyWord.Services
 
         public WordGallery GetById(int id)
         {
-            return _YourDailyWordDbContext.WordGalleries.Find(id);
+            return GetAll().Where(wordImg => wordImg.Id == id).First();
         }
 
         public IEnumerable<WordGallery> GetByTag(string tag)

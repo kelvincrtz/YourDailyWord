@@ -4,7 +4,9 @@
      <div class ="wordGallery-content">
          @foreach (var image in Model.WordGallery)
          {
-             <div class="gallery-image" style="background-image:url(@image.Url)"></div>
+             <a asp-controller="Word" asp-action="Detail" asp-route-id="@image.Id">
+                <div class="gallery-image" style="background-image:url(@image.Url)"></div>
+             </a>
          }
      </div>
 </div>
