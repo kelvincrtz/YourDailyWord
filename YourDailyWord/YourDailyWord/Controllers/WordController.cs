@@ -37,6 +37,7 @@ namespace YourDailyWord.Controllers
             {
                 Id = word.Id,
                 Title = word.Title,
+                Url = word.Url,
                 Description = word.Description,
                 BibleVerse = word.BibleVerse,
                 Created = word.Created,
