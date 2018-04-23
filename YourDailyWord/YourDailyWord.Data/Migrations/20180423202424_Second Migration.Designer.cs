@@ -11,9 +11,10 @@ using YourDailyWord.Data;
 namespace YourDailyWord.Data.Migrations
 {
     [DbContext(typeof(YourDailyWordDbContext))]
-    partial class YourDailyWordDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180423202424_Second Migration")]
+    partial class SecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,9 +26,11 @@ namespace YourDailyWord.Data.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
+                    b.Property<string>("BibleVerse");
+
                     b.Property<DateTime>("Created");
 
-                    b.Property<string>("Description1");
+                    b.Property<string>("Description");
 
                     b.Property<string>("Description2");
 
@@ -38,8 +41,6 @@ namespace YourDailyWord.Data.Migrations
                     b.Property<string>("Title");
 
                     b.Property<string>("Url");
-
-                    b.Property<string>("Verse1");
 
                     b.Property<string>("Verse2");
 

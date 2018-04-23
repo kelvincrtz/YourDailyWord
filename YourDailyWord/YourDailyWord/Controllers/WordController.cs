@@ -38,8 +38,8 @@ namespace YourDailyWord.Controllers
                 Id = word.Id,
                 Title = word.Title,
                 Url = word.Url,
-                Description = word.Description,
-                BibleVerse = word.BibleVerse,
+                Description = word.Description1,
+                BibleVerse = word.Verse1,
                 Created = word.Created,
                 Tags = word.Tags.Select(t => t.Description).ToList()
             };
