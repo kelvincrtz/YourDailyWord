@@ -1,13 +1,16 @@
 ﻿@model YourDailyWord.Models.WordDetailModel
 
 <div class= "container body-content">
-        <div class="gallery-image" style="background-image:url(@Model.Url)">         
-            </div>
+    <div class="gallery-image" style="background-image:url(@Model.Url)">         
+    </div>
+
     <div class="row">
         <span>Title: @Model.BibleVerse</span>
         <span>Description: @Model.Description</span>
     </div>
+
     <div class="row">
         <a class="btn btn-primary" asp-controller="Word" asp-action="Index">Back to Word</a>
     </div>
+
 </div>

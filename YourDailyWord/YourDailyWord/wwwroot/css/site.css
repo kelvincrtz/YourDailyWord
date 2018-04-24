@@ -6,20 +6,9 @@
     height: 300px;
     width: 300px;
     margin: 12px;
-    position: relative;
     background-size: cover;
     background-position: center;
     
-}
-
-.image-detail-container{
-    padding:10px
-}
-
-.image-detail {
-    padding: 10px;
-    height: 600px;
-    width: 600px;
 }
 
 .wordGallery-content {
@@ -37,6 +26,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    margin:auto;
 }
 
 /* Carousel */
