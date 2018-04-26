@@ -1,11 +1,12 @@
 ﻿@model YourDailyWord.Models.DailyDevotionIndexModel
 
 <div class="body-content">
+    
+    <div class="body-content-flag">
+        <img src="@Model.ImageURL" alt="@Model.Title" class="center"/>
+    </div>
 
-    <div class="daily-devotion-flag" style="background-image:url(@Model.ImageURL)"></div>
-
-
-    <div class="description-title">
+    <div class="description-title-devotion">
         <span>@Model.Title</span>
     </div>
 
