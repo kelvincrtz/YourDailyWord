@@ -11,9 +11,10 @@ using YourDailyWord.Data;
 namespace YourDailyWord.Data.Migrations
 {
     [DbContext(typeof(YourDailyWordDbContext))]
-    partial class YourDailyWordDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180426011930_Fifth Migration")]
+    partial class FifthMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

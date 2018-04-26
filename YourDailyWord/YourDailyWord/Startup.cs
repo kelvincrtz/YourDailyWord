@@ -29,6 +29,8 @@ namespace YourDailyWord
 
             services.AddScoped<IWordImage, WordImageService>();
 
+            services.AddScoped<IDailyDevotion, DailyDevotionService>();
+
             services.AddMvc();
         }
 
