@@ -13,5 +13,6 @@ namespace YourDailyWord.Data
 
         public DbSet<WordGallery> WordGalleries { get; set; }
         public DbSet<WordTag> WordTags { get; set; }
+        public DbSet<DailyDevotionInfo> DailyDevotionInfos { get; set; }
     }
 }
