@@ -2,22 +2,38 @@
 
 <div class="container body-content">
 
-    <div class="gallery-image" style="background-image:url(@Model.Url)"></div>
+    <div class="description-content">
+        <div class="description-image" style="background-image:url(@Model.Url)"></div>
+    </div>
 
-    <div class="body-content">
-       @Model.Description1
+    <div class="description-content">
+        @Model.Description1
     </div>
 
     <div class="description-content">
         @Model.Description2
     </div>
 
-    <div class="desc">
+    <div class="description-content">
         @Model.Description3
     </div>
 
-    <div class="row">
-        <a class="btn btn-primary" asp-controller="Word" asp-action="Index">Back to Home</a>
+    <div class="description-content">
+        <div class="verse-content">
+            @Model.Verse1
+        </div>
+        <div class="verse-content">
+            @Model.Verse2
+        </div>
+        <div class="verse-content">
+            @Model.Verse3
+        </div>
     </div>
 
-</div>
+    <div class="description-content"></div>
+
+    <div class="row-content">
+        <a class="btn btn-primary" asp-controller="Word" asp-action="Index">Back to Word</a>
+    </div>
+
+    </div>
