@@ -1,9 +1,25 @@
-﻿.description-content {
+﻿.clr{
+    clear:both;
+}
+
+.clr-top{
+    padding-top: 10px;
+}
+
+.description-content {
     padding-left: 105px;
     padding-right: 105px;
     padding-bottom: 25px;
     position:center;
     font-size:17px;
+}
+
+.description-content-word {
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-bottom: 25px;
+    position: center;
+    font-size: 17px;
 }
 
 .description-image {
@@ -23,23 +39,66 @@
     box-sizing: border-box;
 }
 
-.verse-heading {
-    float: Right;
-    width: 30%;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: dimgrey;
-    font-style: italic;
-    font-weight:700;
-    color : navajowhite
+.verse-container{
+    margin: auto;
+    padding: 50px
 }
+
+.verse-content-heading {
+    float: Right;
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: indianred;
+    font-weight: 900;
+    font-size: 30px;
+    color : white
+}
+
 
 .verse-content-devotion {
     float: left;
-    width: 70%;
-    padding: 10px;
+    width: 75%;
+    padding: 20px;
     box-sizing: border-box;
+    font-style: italic;
+    font-size: 18px;
 }
+
+.daily-devotion-flag{
+    width:600px;
+    height:200px;
+    margin: auto;
+}
+
+.description-title {
+    text-align:center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 155px;
+    padding-right: 155px;
+    margin:auto;
+}
+
+.description-author {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 155px;
+    padding-right: 155px;
+    margin: auto;
+}
+
+.description-content-devotion {
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    position: center;
+    font-size: 17px;
+}
+
 .row-content {
     padding-left: 105px;
     padding-right: 105px;

@@ -16,5 +16,6 @@ namespace YourDailyWord.Models
         public string Description4 { get; set; }
         public string Verse { get; set; }
         public string VerseTitle { get; set; }
+        public string ImageURL { get; set; }
     }
 }

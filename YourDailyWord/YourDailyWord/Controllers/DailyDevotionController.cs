@@ -31,7 +31,8 @@ namespace YourDailyWord.Controllers
                 Description3 = _model.Description3,
                 Description4 = _model.Description4,
                 Verse = _model.Verse,
-                VerseTitle = _model.VerseTitle
+                VerseTitle = _model.VerseTitle,
+                ImageURL = _model.ImageURL
             };
 
             return View(model);
