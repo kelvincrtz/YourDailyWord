@@ -53,7 +53,7 @@ namespace YourDailyWord
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Word}/{action=Index}/{id?}");
+                    template: "{controller=DailyDevotion}/{action=Index}/{id?}");
             });
         }
     }

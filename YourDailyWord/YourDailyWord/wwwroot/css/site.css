@@ -23,6 +23,23 @@
     box-sizing: border-box;
 }
 
+.verse-heading {
+    float: Right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: dimgrey;
+    font-style: italic;
+    font-weight:700;
+    color : navajowhite
+}
+
+.verse-content-devotion {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
 .row-content {
     padding-left: 105px;
     padding-right: 105px;
